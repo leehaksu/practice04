@@ -1,20 +1,20 @@
 package prob03;
 
-public class Marine {
-	
-	// 현재 위치
-	private int x;
-	private int y; 
-	
-	void move( int x, int y ) { 
-		/* 지정된 위치로 이동 */ 
+public class Marine extends Unit{
+
+	@Override
+	void move(int x, int y) {
+		// TODO Auto-generated method stub
+		
 	}
-	
-	void stop() { 
-		/* 현재 위치에 정지 */ 
-	}
-	
+
+	@Override
+	void stop() {
+		// TODO Auto-generated method stub
+		
+	}	
 	void stimPack() { 
 		/* 스팀팩을 사용한다.*/
-	}	
+	}
+
 }
